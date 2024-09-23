@@ -1,59 +1,51 @@
-<DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-  
-  <title>Prática | ifood</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="estilo.css" title="" type="" />
-  
-  
-</head>
-<body>
-  <main>
-    <div class="conteúdo">
-      <div class="logo">
-        <img src="src/imagem/ifood-logo-verm-gran.png">
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Prática | ifood</title>
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/estilo.css" />
+  </head>
+  <body>
+    <form id="formulario" method="post">
+      <div class="conteúdo">
         
+        <div class="texto-do-produtos">
+          <img  src="imagem/ifood-logo-verm-gran.png"/>
+          <h2>Portal do Parceiro</h2>
+          <p>Gerencie sua loja de forma fácil e rápida</p>
+        </div>
+        <div class="formulario">
+          <input type="email" id="email" placeholder="Email@email.com.br"  required />
+          <input type="password" id="password" placeholder="Senha"  required />
+        </div>
+        <div>
+          <a class="acesso" href="#">Problema de acesso?</a>
+        </div>
+
+        <div class="botao">
+
+          <button type="submit">Avançar</button>
+        </div>
+        <div class="texto">
+          <p class="link">Ainda não tem cadastro?</p>
+          <a
+            href="https://parceiros.ifood.com.br/restaurante?utm_source=BlogParceiros&utm_medium=Referral&utm_campaign=BlogParceiros_Referral_Botao_Home_Seja_Parceiro&utm_content=Home_Seja_Parceiro_Header_&utm_term=Botao04mar"
+            >cliquei aqui!</a
+          >
+        </div>
       </div>
-      <div class="texto-do-produtos">
-        <h2>Portal do Parceiro</h2>
-        <p>Gerencie sua loja de forma fácil e rápida</p>
-        
-      </div>
-      <div class="formulario">
-      
-        <input type="email" id="email" placeholder="Email@email.com.br">
-        <input type="password" id="password" placeholder="Senha">
-      </div>
-      <div>
-        <a class="acesso" href="#">Problema de acesso?</a>
-      </div>
-      
-      <div class="botao">
-        <button class=" informacoes-btn">
-          Avança 
-        </button>
-        
-       
-      
-        
-      </div>
-      <div class="texto">
-        
-        <p class="link">Ainda não tem cadastro?</p>
-        <a href="  https://parceiros.ifood.com.br/restaurante?utm_source=BlogParceiros&utm_medium=Referral&utm_campaign=BlogParceiros_Referral_Botao_Home_Seja_Parceiro&utm_content=Home_Seja_Parceiro_Header_&utm_term=Botao04mar">cliquei aqui!</a>
-        
-      </div>
-      
-    </div>
-    </main>
- 
+    </form>
+    <script src="src/js/campo.js"></script>
   </body>
 </html>
