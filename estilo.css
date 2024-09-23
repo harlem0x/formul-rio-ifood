@@ -3,8 +3,7 @@ main{
   justify-content: center;
   align-items: center;
 } 
-
-  
+ 
   img{
   
     max-width: 200px;
@@ -23,7 +22,6 @@ main{
    width: 400px;
     
   }
-  
   
   .informacoes-btn {
     display: flex;
